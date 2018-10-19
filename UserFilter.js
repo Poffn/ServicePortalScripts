@@ -43,6 +43,6 @@
             addRemoveButton();
         }
     });
-
+    alert("test");
 
 })();
