@@ -29,7 +29,7 @@
 
     $(".options").click(function(e){
         e.preventDefault();
-        var name = $(this).text().toLowerCase().replace("klar","").replace("påbörja","").trim()
+        var name = $(this).text().toLowerCase().replace("klar","").replace("påbörja","").replace("godkänn","").replace("underkänn","").trim()
 
          $(".options").each(function(){
             var val = $(this).text().trim();
@@ -43,6 +43,6 @@
             addRemoveButton();
         }
     });
-    alert("test");
+
 
 })();
