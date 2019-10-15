@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Service.meridium.se UserFilter
-// @namespace    http://tampermonkey.net/
+// @namespace    https://meridium.se
 // @version      0.3
 // @description  try to take over the world!
 // @downloadURL https://github.com/Poffn/ServicePortalScripts/raw/master/UserFilter.js
