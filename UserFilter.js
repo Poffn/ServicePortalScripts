@@ -3,6 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.3
 // @description  try to take over the world!
+// @downloadURL https://github.com/Poffn/ServicePortalScripts/raw/master/UserFilter.js
 // @author       You
 // @match        https://service.meridium.se/sv/mina-sidor/mina-arenden/
 // @match        https://service.meridium.se/sv/mina-sidor/mina-arenden/*
