@@ -4,7 +4,9 @@
 // @version      0.1
 // @description  try to take over the world!
 // @author       You
-// @match        http://service.meridium.se/sv/mina-sidor/mina-arenden/,http://service.meridium.se/sv/mina-sidor/mina-arenden/*,http://service.meridium.se/templates/ProductSupport/Templates/CaseList.aspx*
+// @match        https://service.meridium.se/sv/mina-sidor/mina-arenden/
+// @match        https://service.meridium.se/sv/mina-sidor/mina-arenden/*
+// @match        https://service.meridium.se/templates/ProductSupport/Templates/CaseList.aspx*
 // @grant        none
 // ==/UserScript==
 
