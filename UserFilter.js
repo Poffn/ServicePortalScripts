@@ -54,6 +54,14 @@
         if($("#CustomFiltering").length < 1){
             addRemoveButton();
         }
+
+
+
+	$(".status").filter(function(index){ return $(this).text() == "Ny"}).parent().addClass("new")
+	$(".status").filter(function(index){ return $(this).text() == "Arbete pågår"}).parent().addClass("ongoing")
+	$(".status").filter(function(index){ return $(this).text().indexOf("Beställd")>-1}).parent().addClass("ordered")
+
+
     });
 
 
