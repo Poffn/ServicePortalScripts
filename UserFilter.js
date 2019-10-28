@@ -1,16 +1,19 @@
 // ==UserScript==
 // @name         Service.meridium.se UserFilter
-// @namespace    http://tampermonkey.net/
-// @version      0.1
+// @namespace    https://meridium.se
+// @version      0.5
 // @description  try to take over the world!
-// @author       You
-// @match        http://service.meridium.se/sv/mina-sidor/mina-arenden/,http://service.meridium.se/sv/mina-sidor/mina-arenden/*,http://service.meridium.se/templates/ProductSupport/Templates/CaseList.aspx*
+// @downloadURL https://github.com/Poffn/ServicePortalScripts/raw/master/UserFilter.js
+// @author       Kristoffer Bjelkmark
+// @match        https://service.meridium.se/sv/mina-sidor/mina-arenden/
+// @match        https://service.meridium.se/sv/mina-sidor/mina-arenden/*
+// @match        https://service.meridium.se/templates/ProductSupport/Templates/CaseList.aspx*
 // @grant        none
 // ==/UserScript==
 
 (function() {
     'use strict';
-
+    console.log("test");
     function addRemoveButton(){
         var btnTemplate = $('<input type="button" value="Rensa filtrering" id="CustomFiltering" class="button" />');
 
