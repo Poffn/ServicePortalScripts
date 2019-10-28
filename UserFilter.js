@@ -1,4 +1,4 @@
-// ==UserScript==
+﻿// ==UserScript==
 // @name         Service.meridium.se UserFilter
 // @namespace    https://meridium.se
 // @version      0.5
@@ -8,12 +8,21 @@
 // @match        https://service.meridium.se/sv/mina-sidor/mina-arenden/
 // @match        https://service.meridium.se/sv/mina-sidor/mina-arenden/*
 // @match        https://service.meridium.se/templates/ProductSupport/Templates/CaseList.aspx*
-// @grant        none
+// @match        https://service.meridium.se/*
+// @grant GM.getResourceUrl
+// @resource test https://github.com/Poffn/ServicePortalScripts/raw/master/Dark-theme.css
 // ==/UserScript==
+
+(async function() {
+    var t = await GM.getResourceUrl("test");
+    $('head').append('<link rel="stylesheet" href="'+t+'" type="text/css" />')
+})();
 
 (function() {
     'use strict';
-    console.log("test");
+
+
+
     function addRemoveButton(){
         var btnTemplate = $('<input type="button" value="Rensa filtrering" id="CustomFiltering" class="button" />');
 
