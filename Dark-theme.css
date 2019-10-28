@@ -1,0 +1,12 @@
+*:not(.case):not(.branding){
+  background:black !important;
+  color:white;
+  background-color: black !important;
+}
+body.support table tr.yourball td{
+  background: rgb(50,50,50) !important;
+  background-color: rgb(50,50,50) !important;
+}
+body.support table tr.yourball a:not(.case){
+  background:transparent !Important;
+}
