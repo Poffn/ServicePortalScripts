@@ -1,7 +1,7 @@
 ﻿// ==UserScript==
 // @name         Service.meridium.se UserFilter
 // @namespace    https://meridium.se
-// @version      0.5
+// @version      0.6
 // @description  try to take over the world!
 // @downloadURL https://github.com/Poffn/ServicePortalScripts/raw/master/UserFilter.js
 // @author       Kristoffer Bjelkmark
