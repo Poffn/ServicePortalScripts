@@ -1,7 +1,7 @@
 *:not(.case):not(.branding){
-  background:black !important;
+  background:rgb(15,30,30) !important;
   color:white;
-  background-color: black !important;
+  background-color: rgb(15,30,30) !important;
 }
 body.support table tr.yourball td{
   background: rgb(50,50,50) !important;
